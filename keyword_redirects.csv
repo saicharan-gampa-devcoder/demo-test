@@ -1,0 +1,7 @@
+objectID,keyword,locale,market,redirect_url,priority,active
+membership_CR_en,membership,en,CR,https://www.pricesmart.com/en-cr/membership/info,1,True
+membresia_CR_es,membresía,es,CR,https://www.pricesmart.com/es-cr/membrecia/info,1,True
+pharmacy_CR_en,pharmacy,en,CR,https://farmacia.pricesmart.com/,1,True
+farmacia_CR_es,farmacia,es,CR,https://farmacia.pricesmart.com/,1,True
+blackfriday_CR_en,black friday,en,CR,https://www.pricesmart.com/en-CR/smart-week,1,True
+viernesnegro_CR_es,viernes negro,es,CR,https://www.pricesmart.com/es-cr/smart-week,1,True
