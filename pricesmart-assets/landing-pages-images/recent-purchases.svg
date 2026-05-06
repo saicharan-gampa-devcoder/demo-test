@@ -1,0 +1,44 @@
+<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#004D40;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00695C;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow6">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg6)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="950" cy="200" r="260" fill="#80CBC4" fill-opacity="0.06"/>
+  <circle cx="1050" cy="100" r="150" fill="#80CBC4" fill-opacity="0.08"/>
+  <circle cx="900" cy="350" r="100" fill="#80CBC4" fill-opacity="0.05"/>
+
+  <!-- Diagonal accent bar -->
+  <rect x="750" y="-20" width="8" height="450" fill="#80CBC4" fill-opacity="0.25" transform="rotate(-15 750 200)"/>
+  <rect x="800" y="-20" width="3" height="450" fill="#80CBC4" fill-opacity="0.15" transform="rotate(-15 800 200)"/>
+
+  <!-- PriceSmart logo area -->
+  <rect x="60" y="40" width="180" height="36" rx="4" fill="#80CBC4" fill-opacity="0.18"/>
+  <text x="75" y="64" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#80CBC4" letter-spacing="1">PriceSmart</text>
+
+  <!-- Icon -->
+  <text x="68" y="230" font-size="72" opacity="0.95">🛒</text>
+
+  <!-- Title -->
+  <text x="68" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" fill="white" filter="url(#glow6)">Recent Purchases</text>
+  
+
+  <!-- Subtitle -->
+  <text x="68" y="340" font-family="Arial, sans-serif" font-size="22" fill="#80CBC4" fill-opacity="0.9" letter-spacing="1">Track Your Shopping History</text>
+
+  <!-- Bottom accent line -->
+  <rect x="68" y="365" width="120" height="4" rx="2" fill="#80CBC4"/>
+</svg>
